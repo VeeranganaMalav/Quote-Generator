@@ -86,7 +86,7 @@
         e.preventDefault();
         const keyword = document.getElementById('keyword').value;
 
-        const response = await fetch(`http://localhost:3000/generate-quote?keyword=${keyword}`, {
+        const response = await fetch(`https://quote-generator-l47m.onrender.com/generate-quote?keyword=${keyword}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
